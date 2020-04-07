@@ -71,7 +71,7 @@ ENV TMPDIR /tmp/jetty
 RUN set -xe \
 	&& mkdir -p "$TMPDIR" \
 	&& chown -R jetty:0 "$TMPDIR" \
-	&& chmod -R g+rw $JETTY_BASE
+	&& chmod -R g+rw $TMPDIR
 
 COPY docker-entrypoint.sh /
 RUN set -xe \
