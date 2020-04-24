@@ -1,5 +1,4 @@
-# Purpose 
-
+# Purpose b
 
 Trying to use jetty official Image  (https://hub.docker.com/_/jetty) to run legacy Jetty/JRE8 application in a Openshift container, but facing to some issues :
 
