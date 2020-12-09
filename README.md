@@ -9,5 +9,3 @@ no more OpenJDK 8 Alpine images (Alpine/musl is not officially supported by the 
 Without update, there is no official image passing vulnerabilities scan (trivy)
 
 - Official image doesn't support "Arbitrary User IDs" security constraint required by openshift (https://docs.openshift.com/container-platform/3.11/creating_images/guidelines.html)
-
-
