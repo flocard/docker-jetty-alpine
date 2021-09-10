@@ -11,6 +11,7 @@ WORKDIR $JETTY_HOME
 ENV JETTY_VERSION 9.4.27.v20200227
 ENV JETTY_TGZ_URL https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-home/$JETTY_VERSION/jetty-home-$JETTY_VERSION.tar.gz
 
+
 # GPG Keys are personal keys of Jetty committers (see https://github.com/eclipse/jetty.project/blob/0607c0e66e44b9c12a62b85551da3a0edce0281e/KEYS.txt)
 ENV JETTY_GPG_KEYS \
 	# Jan Bartel      <janb@mortbay.com>
